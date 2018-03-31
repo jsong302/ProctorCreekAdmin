@@ -1,1 +1,1 @@
-web: gunicorn proctorcreekadmin.wsgi
+web: gunicorn ProctorCreekAdmin.wsgi
