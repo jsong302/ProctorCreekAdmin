@@ -1,0 +1,1 @@
+web: gunicorn proctorcreekadmin.wsgi

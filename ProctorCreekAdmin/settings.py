@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'ProctorCreekAdmin.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'ProctorCreek',
-        'USER': 'jsong302@proctorcreek',
-        'PASSWORD': 'ProctorCreek123',
-        'HOST': 'proctorcreek.database.windows.net',
-        'PORT': '1433',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd9h53gdqjas4f',
+        'USER': 'okymzzfndntngs',
+        'PASSWORD': 'c24879d2b3bc666111596fb83178c00953ae9d94af9069654497daa1dfb09a34',
+        'HOST': 'ec2-174-129-225-9.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
