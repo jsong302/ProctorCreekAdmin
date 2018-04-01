@@ -5,7 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/panel/migrations/0002_auto_20180401_1950.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
@@ -98,7 +97,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" afterPath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/panel/admin.py" afterPath="$PROJECT_DIR$/panel/admin.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,8 +136,8 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/panel/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -466,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522626011659</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added StoryImage to admin panel">
+      <created>1522626881274</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1522626881274</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -515,7 +520,8 @@
     <MESSAGE value="Changed Static URL" />
     <MESSAGE value="Made image field multiple" />
     <MESSAGE value="Added route to image upload in models.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added route to image upload in models.py" />
+    <MESSAGE value="Added StoryImage to admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added StoryImage to admin panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -893,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/panel/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

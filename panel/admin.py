@@ -3,4 +3,4 @@ from .models import Story, StoryImage
 
 admin.site.register(Story)
 # Register your models here.
-admin.sit.register(StoryImage)
+admin.site.register(StoryImage)
