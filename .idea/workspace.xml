@@ -98,7 +98,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" afterPath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,8 +114,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProctorCreekAdmin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="144">
+              <caret line="125" column="31" lean-forward="false" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -437,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522558347286</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added CORS headers">
+      <created>1522558626823</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522558626823</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -482,7 +488,8 @@
     <MESSAGE value="Changed settings.py" />
     <MESSAGE value="Added django storages" />
     <MESSAGE value="Added boto to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added boto to requirements.txt" />
+    <MESSAGE value="Added CORS headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CORS headers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -862,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProctorCreekAdmin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="125" column="31" lean-forward="false" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
           <folding />
         </state>
       </provider>
