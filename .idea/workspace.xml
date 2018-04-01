@@ -98,7 +98,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" afterPath="$PROJECT_DIR$/ProctorCreekAdmin/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,8 +114,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProctorCreekAdmin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522543864983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Amazon S3 connection">
+      <created>1522557787504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522557787504</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -449,7 +455,8 @@
     <MESSAGE value="Changed requirements.txt" />
     <MESSAGE value="Changed settings.py" />
     <MESSAGE value="Changed settings.py and wsgi.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed settings.py and wsgi.py" />
+    <MESSAGE value="Amazon S3 connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazon S3 connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -811,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProctorCreekAdmin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
           <folding />
         </state>
       </provider>
