@@ -97,7 +97,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/panel/models.py" afterPath="$PROJECT_DIR$/panel/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -492,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522628055141</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated Story Image display name">
+      <created>1522628261944</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1522628261944</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,7 +551,8 @@
     <MESSAGE value="Fixed typo" />
     <MESSAGE value="Updated model errors" />
     <MESSAGE value="Added Pillow to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Pillow to requirements.txt" />
+    <MESSAGE value="Updated Story Image display name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Story Image display name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
