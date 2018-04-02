@@ -23,13 +23,13 @@ class Story(models.Model):
         self.save()
 
     def __str__(self):
-        return self.title
+        return self.name
 
 class StoryImage(models.Model):
 
     def get_story_image_path(instance, filename):
         return os.path.join(
-            "stories/%d/images" % instance.owner.id)
+            "stories/%d/images" % instance.story.id)
     story = models.ForeignKey(Story, on_delete=models.CASCADE)
     image = models.ImageField(upload_to=get_story_image_path)
 
