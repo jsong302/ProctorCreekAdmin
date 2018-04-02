@@ -5,3 +5,4 @@ whitenoise
 django-storages
 boto
 django-cors-headers
+Pillow
