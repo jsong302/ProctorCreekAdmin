@@ -33,4 +33,7 @@ class StoryImage(models.Model):
     story = models.ForeignKey(Story, on_delete=models.CASCADE)
     image = models.ImageField(upload_to=get_story_image_path)
 
+    def __str__(self):
+        return self.story.name
+
 
