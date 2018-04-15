@@ -130,7 +130,7 @@ AWS_STORAGE_BUCKET_NAME = os.environ.get('S3_BUCKET_NAME')
 #STATIC_URL = 'http://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/'
 STATIC_URL = 'http://proctorcreek.s3.amazonaws.com/'
 STATIC_ROOT = STATIC_URL
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 

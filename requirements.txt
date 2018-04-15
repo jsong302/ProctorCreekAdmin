@@ -6,3 +6,4 @@ django-storages
 boto
 django-cors-headers
 Pillow
+django-tastypie
