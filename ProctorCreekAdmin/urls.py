@@ -15,11 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from panel.resources import StoryResource
+from panel.resources import StoryResource, StoryImageResource
+from tastypie.api import Api
 
-story_resource = StoryResource()
+v1_api = Api(api_name='v1')
+v1_api.register(StoryResource())
+v1_api.register(StoryImageResource())
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(story_resource.urls)),
+    path('api/', include(v1_api.urls)),
 ]
