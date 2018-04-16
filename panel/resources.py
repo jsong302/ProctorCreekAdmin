@@ -1,5 +1,5 @@
 from tastypie.resources import ModelResource
-from panel.models import Story
+from panel.models import Story, StoryImage
 from tastypie import fields, utils
 
 class StoryResource(ModelResource):
@@ -11,5 +11,5 @@ class StoryResource(ModelResource):
 class StoryImageResource(ModelResource):
     story = fields.ToOneField(StoryResource, 'story')
     class Meta:
-        queryset = Story.objects.all()
+        queryset = StoryImage.objects.all()
         resource_name = 'storyimage'
