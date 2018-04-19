@@ -10,6 +10,7 @@ import os
 class Story(models.Model):
     author = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
+    abstract = models.TextField(null=True)
     details = models.TextField()
     lat = models.DecimalField(max_digits=10, decimal_places=8)
     long = models.DecimalField(max_digits=10, decimal_places=8)
@@ -32,6 +33,7 @@ class StoryImage(models.Model):
             "stories/%d/images" % instance.story.id)
     story = models.ForeignKey(Story, on_delete=models.CASCADE)
     image = models.ImageField(upload_to=get_story_image_path)
+    caption = models.TextField(null=True)
 
     def __str__(self):
         return self.story.name
